@@ -10,51 +10,52 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color(.systemMint).ignoresSafeArea()
-            VStack(alignment: .leading, spacing: 20.0) {
-                Image("niagara_falls").resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(15)
-                
-                
-                HStack{
-                    Text("Niagara Falls").font(.largeTitle).fontWeight(.bold).foregroundColor(Color.black)
-                    
+            
+            Image("background-plain")
+                .resizable()
+                .ignoresSafeArea()
+            
+            VStack{
+                Spacer()
+                Image("logo")
+                Spacer()
+                HStack {
                     Spacer()
-                    
-                    
-                    VStack{
-                        HStack{
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.fill")
-                            Image(systemName: "star.leadinghalf.filled")
-                        }
-                        Text("(Reviews 561)")
-                    }.foregroundColor(.orange).font(.caption)
-                }
-                
-                
-                
-                Text("Come visit the falls for an experience of a lifetime.").font(/*@START_MENU_TOKEN@*/.body/*@END_MENU_TOKEN@*/).fontWeight(.bold).foregroundColor(Color.black)
-                
-                HStack{
+                    Image("card2")
                     Spacer()
-                    Image(systemName: "fork.knife")
-                    Image(systemName: "binoculars.fill")
+                    Image("card3")
+                    Spacer()
                 }
-                .foregroundColor(.gray).font(.caption)
+                Spacer()
+                Image("button")
+                Spacer()
+                HStack {
+                    Spacer()
+                    VStack  {
+                        Text("Player")
+                            .font(.headline)
+                            .padding(.bottom, 2.0)
+                           
+                        Text("0")
+                            .font(.largeTitle)
+                          
+                    }
+                    Spacer()
+                    VStack  {
+                        Text("CPU")
+                            .font(.headline)
+                            .padding(.bottom, 2.0)
+     
+                        Text("0")
+                            .font(.largeTitle)
+                    }
+                    Spacer()
+                }
+                .foregroundColor(.white)
+                Spacer()
             }
-            .padding()
-            .background(Rectangle()
-            .foregroundColor(.white))
-            .cornerRadius(15)
-            .shadow(radius: 15)
-            .padding()
+            
         }
-        
-        
     }
 }
 
