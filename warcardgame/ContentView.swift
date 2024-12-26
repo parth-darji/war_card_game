@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var playerCard = "card7"
-    var playerScore = 0
+    @State var playerCard = "card7"
+    @State var playerScore = 0
     
-    var cpuCard = "card13"
-    var cpuScore = 0
+    @State var cpuCard = "card13"
+    @State var cpuScore = 0
+    
+    @State private var showAlert = false
+    @State private var alertMessage = ""
     
     var body: some View {
         ZStack{
@@ -65,13 +68,47 @@ struct ContentView: View {
                 }
                 .foregroundColor(.white)
                 Spacer()
+            }            .alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("War Card Game"),
+                    message: Text(alertMessage),
+                    dismissButton: .default(Text("OK"), action: {
+                        // Manually reset showAlert to false after dismissal
+                        showAlert = false
+                    })
+                )
             }
             
         }
     }
     
     func deal() {
-        print("deal cards")
+        // randomize the players card
+        var playerCardValue = Int.random(in: 2...14)
+        playerCard = "card" + String(playerCardValue)
+        
+        // randomize the cpu card
+        var cpuCardValue = Int.random(in: 2...14)
+        cpuCard = "card" + String(cpuCardValue)
+        
+        // update the scores
+        if playerCardValue > cpuCardValue {
+            // add 1 to player score
+            playerScore += 1
+        }else if cpuCardValue > playerCardValue{
+            // add 1 to cpu score
+            cpuScore += 1
+        }else{
+            // Tie
+            print("Game Tied")
+            showAlertWithMessage(message: "Game tied!")
+        }
+    }
+    
+    // Function to show alert with a message
+    func showAlertWithMessage(message: String) {
+        alertMessage = message
+        showAlert = true
     }
 }
 
