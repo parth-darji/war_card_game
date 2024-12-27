@@ -19,8 +19,8 @@ The War Card Game is a fun, beginner-friendly app where a player competes agains
 
 ## 🛠️ Technologies Used
 
-- **Swift Programming Language**
-- **SwiftUI Framework**
+- Swift Programming Language**
+- SwiftUI Framework**
 
 ## 🧠 Learning Objectives
 
