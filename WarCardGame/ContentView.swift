@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  warcardgame
+//  WarCardGame
 //
 //  Created by Parth Darji on 12/19/24.
 //

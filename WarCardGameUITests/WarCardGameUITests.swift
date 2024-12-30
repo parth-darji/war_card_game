@@ -1,13 +1,13 @@
 //
-//  warcardgameUITests.swift
-//  warcardgameUITests
+//  WarCardGameUITests.swift
+//  WarCardGameUITests
 //
 //  Created by Parth Darji on 12/19/24.
 //
 
 import XCTest
 
-final class warcardgameUITests: XCTestCase {
+final class WarCardGameUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

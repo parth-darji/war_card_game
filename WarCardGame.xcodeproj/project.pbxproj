@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3440BF582D13EDC10027C1DD /* warcardgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warcardgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3440BF682D13EDC20027C1DD /* warcardgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warcardgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3440BF722D13EDC20027C1DD /* warcardgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warcardgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440BF582D13EDC10027C1DD /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440BF682D13EDC20027C1DD /* WarCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440BF722D13EDC20027C1DD /* WarCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3440BF5A2D13EDC10027C1DD /* warcardgame */ = {
+		3440BF5A2D13EDC10027C1DD /* WarCardGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = warcardgame;
+			path = WarCardGame;
 			sourceTree = "<group>";
 		};
-		3440BF6B2D13EDC20027C1DD /* warcardgameTests */ = {
+		3440BF6B2D13EDC20027C1DD /* WarCardGameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = warcardgameTests;
+			path = WarCardGameTests;
 			sourceTree = "<group>";
 		};
-		3440BF752D13EDC20027C1DD /* warcardgameUITests */ = {
+		3440BF752D13EDC20027C1DD /* WarCardGameUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = warcardgameUITests;
+			path = WarCardGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		3440BF4F2D13EDC10027C1DD = {
 			isa = PBXGroup;
 			children = (
-				3440BF5A2D13EDC10027C1DD /* warcardgame */,
-				3440BF6B2D13EDC20027C1DD /* warcardgameTests */,
-				3440BF752D13EDC20027C1DD /* warcardgameUITests */,
+				3440BF5A2D13EDC10027C1DD /* WarCardGame */,
+				3440BF6B2D13EDC20027C1DD /* WarCardGameTests */,
+				3440BF752D13EDC20027C1DD /* WarCardGameUITests */,
 				3440BF592D13EDC10027C1DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		3440BF592D13EDC10027C1DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3440BF582D13EDC10027C1DD /* warcardgame.app */,
-				3440BF682D13EDC20027C1DD /* warcardgameTests.xctest */,
-				3440BF722D13EDC20027C1DD /* warcardgameUITests.xctest */,
+				3440BF582D13EDC10027C1DD /* WarCardGame.app */,
+				3440BF682D13EDC20027C1DD /* WarCardGameTests.xctest */,
+				3440BF722D13EDC20027C1DD /* WarCardGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3440BF572D13EDC10027C1DD /* warcardgame */ = {
+		3440BF572D13EDC10027C1DD /* WarCardGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3440BF7C2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgame" */;
+			buildConfigurationList = 3440BF7C2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGame" */;
 			buildPhases = (
 				3440BF542D13EDC10027C1DD /* Sources */,
 				3440BF552D13EDC10027C1DD /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3440BF5A2D13EDC10027C1DD /* warcardgame */,
+				3440BF5A2D13EDC10027C1DD /* WarCardGame */,
 			);
-			name = warcardgame;
+			name = WarCardGame;
 			packageProductDependencies = (
 			);
 			productName = warcardgame;
-			productReference = 3440BF582D13EDC10027C1DD /* warcardgame.app */;
+			productReference = 3440BF582D13EDC10027C1DD /* WarCardGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3440BF672D13EDC20027C1DD /* warcardgameTests */ = {
+		3440BF672D13EDC20027C1DD /* WarCardGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3440BF7F2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgameTests" */;
+			buildConfigurationList = 3440BF7F2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGameTests" */;
 			buildPhases = (
 				3440BF642D13EDC20027C1DD /* Sources */,
 				3440BF652D13EDC20027C1DD /* Frameworks */,
@@ -131,18 +131,18 @@
 				3440BF6A2D13EDC20027C1DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3440BF6B2D13EDC20027C1DD /* warcardgameTests */,
+				3440BF6B2D13EDC20027C1DD /* WarCardGameTests */,
 			);
-			name = warcardgameTests;
+			name = WarCardGameTests;
 			packageProductDependencies = (
 			);
 			productName = warcardgameTests;
-			productReference = 3440BF682D13EDC20027C1DD /* warcardgameTests.xctest */;
+			productReference = 3440BF682D13EDC20027C1DD /* WarCardGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3440BF712D13EDC20027C1DD /* warcardgameUITests */ = {
+		3440BF712D13EDC20027C1DD /* WarCardGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3440BF822D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgameUITests" */;
+			buildConfigurationList = 3440BF822D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGameUITests" */;
 			buildPhases = (
 				3440BF6E2D13EDC20027C1DD /* Sources */,
 				3440BF6F2D13EDC20027C1DD /* Frameworks */,
@@ -154,13 +154,13 @@
 				3440BF742D13EDC20027C1DD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3440BF752D13EDC20027C1DD /* warcardgameUITests */,
+				3440BF752D13EDC20027C1DD /* WarCardGameUITests */,
 			);
-			name = warcardgameUITests;
+			name = WarCardGameUITests;
 			packageProductDependencies = (
 			);
 			productName = warcardgameUITests;
-			productReference = 3440BF722D13EDC20027C1DD /* warcardgameUITests.xctest */;
+			productReference = 3440BF722D13EDC20027C1DD /* WarCardGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3440BF532D13EDC10027C1DD /* Build configuration list for PBXProject "warcardgame" */;
+			buildConfigurationList = 3440BF532D13EDC10027C1DD /* Build configuration list for PBXProject "WarCardGame" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3440BF572D13EDC10027C1DD /* warcardgame */,
-				3440BF672D13EDC20027C1DD /* warcardgameTests */,
-				3440BF712D13EDC20027C1DD /* warcardgameUITests */,
+				3440BF572D13EDC10027C1DD /* WarCardGame */,
+				3440BF672D13EDC20027C1DD /* WarCardGameTests */,
+				3440BF712D13EDC20027C1DD /* WarCardGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		3440BF6A2D13EDC20027C1DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3440BF572D13EDC10027C1DD /* warcardgame */;
+			target = 3440BF572D13EDC10027C1DD /* WarCardGame */;
 			targetProxy = 3440BF692D13EDC20027C1DD /* PBXContainerItemProxy */;
 		};
 		3440BF742D13EDC20027C1DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3440BF572D13EDC10027C1DD /* warcardgame */;
+			target = 3440BF572D13EDC10027C1DD /* WarCardGame */;
 			targetProxy = 3440BF732D13EDC20027C1DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"warcardgame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGame/Preview Content\"";
 				DEVELOPMENT_TEAM = YZ8S4FP7UW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,7 +409,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.parthdarji..warcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthdarji.warcardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"warcardgame/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGame/Preview Content\"";
 				DEVELOPMENT_TEAM = YZ8S4FP7UW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.parthdarji..warcardgame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parthdarji.warcardgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warcardgame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/warcardgame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarCardGame";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warcardgame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/warcardgame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarCardGame";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3440BF532D13EDC10027C1DD /* Build configuration list for PBXProject "warcardgame" */ = {
+		3440BF532D13EDC10027C1DD /* Build configuration list for PBXProject "WarCardGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3440BF7A2D13EDC20027C1DD /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3440BF7C2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgame" */ = {
+		3440BF7C2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3440BF7D2D13EDC20027C1DD /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3440BF7F2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgameTests" */ = {
+		3440BF7F2D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3440BF802D13EDC20027C1DD /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3440BF822D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "warcardgameUITests" */ = {
+		3440BF822D13EDC20027C1DD /* Build configuration list for PBXNativeTarget "WarCardGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3440BF832D13EDC20027C1DD /* Debug */,

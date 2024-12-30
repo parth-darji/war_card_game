@@ -1,6 +1,6 @@
 //
 //  NiagaraFallsCardView.swift
-//  warcardgame
+//  WarCardGame
 //
 //  Created by Parth Darji on 12/24/24.
 //

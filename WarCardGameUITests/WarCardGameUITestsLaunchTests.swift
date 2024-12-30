@@ -1,13 +1,13 @@
 //
-//  warcardgameUITestsLaunchTests.swift
-//  warcardgameUITests
+//  WarCardGameUITestsLaunchTests.swift
+//  WarCardGameUITests
 //
 //  Created by Parth Darji on 12/19/24.
 //
 
 import XCTest
 
-final class warcardgameUITestsLaunchTests: XCTestCase {
+final class WarCardGameUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

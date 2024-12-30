@@ -9,10 +9,28 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>warcardgame.xcscheme_^#shared#^_</key>
+		<key>WarCardGame.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3440BF572D13EDC10027C1DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3440BF672D13EDC20027C1DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3440BF712D13EDC20027C1DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
